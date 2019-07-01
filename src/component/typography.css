@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Libre Franklin', sans-serif;  
+}
+
+title {
+    font-family: 'Libre Franklin', sans-serif; 
+}
+
+
+body {
+    font-family:  Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+
+p {
+    font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+}
+
+span {
+    font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+}
+
+input {
+    font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+

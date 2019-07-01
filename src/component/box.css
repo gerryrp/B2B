@@ -1,0 +1,9 @@
+.widefatbox{
+    @apply w-4/6;
+    @apply h-40;
+    @apply bg-blue-200;
+    @apply p-4;
+    @apply mt-5;
+    @apply border-gray-200;
+    @apply border-0;
+}

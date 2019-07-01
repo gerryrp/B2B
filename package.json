@@ -1,0 +1,19 @@
+{
+  "name": "cssb2b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/style.css -o src/compiled/style.css && postcss src/compiled/style.css -o dist/style.css"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-import": "^12.0.1",
+    "precss": "^4.0.0",
+    "tailwindcss": "^1.0.1"
+  },
+  "dependencies": {}
+}

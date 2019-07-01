@@ -1,0 +1,111 @@
+.span_title{
+    @apply text-base;
+    @apply font-bold;
+    @apply text-black;
+  }
+  
+  .span_green {
+    background-color: #97c310;
+    @apply border-0;
+    @apply text-white;
+    @apply font-normal;
+    @apply text-sm;
+    @apply p-1;
+  }
+
+  .span_yellow {
+    background-color: #eeea1c;
+    @apply border-0;
+    @apply text-black;
+    @apply font-normal;
+    @apply text-sm;
+    @apply p-1;
+  }
+
+  .span_purple {
+    background-color: #841ea3;
+    @apply border-0;
+    @apply text-white;
+    @apply font-normal;
+    @apply text-sm;
+    @apply p-1;
+  }
+  
+  .span_blue {
+    background-color: #4f7ed1;
+    @apply border-0;
+    @apply text-white;
+    @apply font-normal;
+    @apply p-1;
+    @apply text-sm;
+  }
+
+  .span_red {
+    background-color: #e92222;
+    @apply border-0;
+    @apply text-white;
+    @apply font-normal;
+    @apply p-1;
+  }
+  
+  .span_blue_link {
+    @apply text-blue-500;
+    @apply cursor-pointer;
+    &:hover{
+      @apply text-red-500;
+    }
+  }
+    
+  .span_brown {
+    color: #a35617;
+    @apply font-normal;
+  }
+  
+  .span_orange {
+    color: #ff9b18;
+    @apply font-bold;
+  }
+
+  .span_status {
+    @apply text-black;
+    @apply font-bold;
+    @apply p-1;
+    @apply w-full;
+  }
+
+  .span_danger {
+    @apply text-red-500;
+    @apply font-normal;
+    @apply text-sm;
+    @apply p-1;
+  }
+
+  .span_primary {
+    @apply text-blue-500;
+    @apply font-normal;
+    @apply text-sm;
+    
+  }
+
+  .span_success {
+    @apply text-green-500;
+    @apply font-normal;
+    @apply text-sm;
+    
+  }  
+
+  .span_pink {
+    @apply text-pink-500;
+    @apply font-normal;
+    @apply text-sm;
+    
+  }
+
+  .span_violet{
+    @apply text-purple-500;
+    @apply font-normal;
+    @apply text-sm;
+  }
+
+
+  

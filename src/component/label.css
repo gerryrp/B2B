@@ -1,0 +1,54 @@
+.label {
+    @apply text-white;
+    @apply p-2;
+
+    &-sm{
+        @apply p-1;
+        @apply text-xs;
+    }
+    &-lg{
+        @apply p-3;
+    }
+    &-xl{
+        @apply p-4;
+    }
+
+    &-rounded{
+        @apply rounded-lg;
+    }
+
+    &-primary{
+        @apply bg-blue-500;
+    }
+
+    &-success{
+        @apply bg-green-500;
+        @apply text-white;
+    }
+
+    &-secondary{
+        @apply bg-gray-500;
+        @apply text-white;
+    }
+
+    &-danger{
+        @apply bg-red-500;
+        @apply text-white;
+    }
+
+    &-warning{
+        @apply bg-yellow-500;
+        @apply text-white;
+
+    }
+
+    &-info{
+        @apply bg-blue-500;
+        @apply text-white;
+    }
+
+    &-other{
+        @apply bg-gray-300;
+        @apply text-black !important;
+    }
+}

@@ -1,0 +1,15 @@
+.overlay{
+    @apply inset-0;
+    @apply w-full;
+    @apply h-full;
+    @apply bg-black;
+    @apply opacity-25;
+
+    &-full{
+        @apply fixed;
+    }
+
+    &-relative{
+        @apply absolute;
+    }
+}

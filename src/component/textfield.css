@@ -1,0 +1,92 @@
+.textareaxxs{ 
+    @apply bg-white;
+    @apply w-10;
+    @apply h-5;
+    @apply border;
+    @apply border-black;
+}
+
+
+.textareaxs{
+    @apply bg-white;
+    @apply w-24;
+    @apply h-5;
+    @apply overflow-auto;
+    @apply resize-y;
+    @apply border;
+    @apply rounded;
+    @apply border-black;
+}
+
+.textareasm{
+    @apply bg-white;
+    @apply w-48;
+    @apply h-5;
+    @apply overflow-auto;
+    @apply resize-y;
+    @apply border;
+    @apply rounded;
+    @apply border-black;
+}
+
+.textarealg{
+    @apply bg-white;
+    @apply w-64;
+    @apply h-5;
+    @apply overflow-auto;
+    @apply resize-y;
+    @apply border;
+    @apply rounded;
+    @apply border-black;
+}
+
+
+.textareaxl{
+    @apply bg-white;
+    @apply w-2/5;
+    @apply h-5;
+    @apply overflow-auto;
+    @apply resize-y;
+    @apply border;
+    @apply rounded;
+    @apply border-black;
+}
+
+.textlogin{
+    @apply border;
+    @apply border-black;
+    @apply rounded-lg;
+    @apply bg-white;
+    @apply w-64;
+    @apply h-5;
+    @apply text-sm;
+    @apply p-4;
+}
+
+
+
+
+
+/* 
+.corners1 {
+	border-radius: 10px;
+	background-color: transparent;
+	padding: 10px; 
+	width: 300px;
+	height: 40px; 
+}
+  
+.corners2 {
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px; 
+	width: 200px;
+	height: 20px; 
+}
+	 
+  */
+
+
+
+
+

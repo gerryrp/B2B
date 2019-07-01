@@ -1,0 +1,133 @@
+.tooltip {
+    @apply relative;
+    @apply inline-block;
+    
+  }
+  
+  .tooltipbot .textbot {
+    @apply invisible;
+    width: 120px;
+    @apply bg-black;
+    @apply text-white;
+    @apply text-center;
+    border-radius: 6px;
+    padding: 5px 0;
+    @apply absolute;
+    @apply z-10;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltipbot .textbot::after {
+    content: "";
+    @apply absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+
+
+
+  .tooltiptop .texttop {
+    @apply invisible;
+    width: 120px;
+    @apply bg-black;
+    @apply text-white;
+    @apply text-center;
+    border-radius: 6px;
+    padding: 5px 0;
+    @apply absolute;
+    @apply z-10;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .tooltiptop .texttop::after {
+    content: "";
+    @apply absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  } 
+
+
+
+  .tooltipright .textright {
+    @apply invisible;
+    width: 120px;
+    @apply bg-black;
+    @apply text-white;
+    @apply text-center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    @apply absolute;
+    @apply z-10;
+    top: -5px;
+    left: 105%;
+  }
+
+  .tooltipright .textright::after {
+    content: "";
+    @apply absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  
+  .tooltipleft .textleft {
+    @apply invisible;
+    width: 120px;
+    @apply bg-black;
+    @apply text-white;
+    @apply text-center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    @apply absolute;
+    @apply z-10;
+    top: -5px;
+    right: 105%;
+  }
+    
+  .tooltipleft .textleft::after {
+    content: "";
+    @apply absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+  }
+
+  
+  .tooltipbot:hover .textbot {
+    visibility: visible;
+  }
+  
+  .tooltiptop:hover .texttop {
+    visibility: visible;
+  }
+
+  .tooltipright:hover .textright {
+    visibility: visible;
+  }
+
+  .tooltipleft:hover .textleft {
+    visibility: visible;
+  }
+  

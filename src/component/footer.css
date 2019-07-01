@@ -1,0 +1,12 @@
+.footer {
+    @apply relative;
+    @apply p-1;
+    @apply bg-white;
+    @apply mt-24;
+    @apply text-right;
+    width: 95%;
+    @apply border-0;
+    @apply border-t;
+    @apply border-solid;
+    @apply border-black;
+  }

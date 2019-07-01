@@ -1,0 +1,48 @@
+.pagination {
+    @apply text-center;
+    @apply m-5;
+/*     
+    text-align: center;
+    margin: 20px */
+}
+.pagination a, .pagination strong {
+    @apply bg-white;
+    @apply inline-block;
+    @apply mr-1;
+    @apply py-1;
+    @apply px-3;
+    @apply leading-normal;
+
+
+
+    /* background: #fff;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 12px;
+    text-decoration: none;
+	line-height: 1.5em; */
+/* 	
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; */
+}
+.pagination a:hover {
+    @apply bg-gray-600;
+    @apply text-white;
+
+    /*     
+    background-color: #BEBEBE;
+    color: #fff; */
+}
+.pagination a:active {
+    @apply bg-gray-400;
+    /*     
+	background: rgba(190, 190, 190, 0.75); */
+}
+.pagination strong {
+    @apply text-white;
+    @apply bg-gray-600;
+/* 
+    color: #fff;
+    background-color: #BEBEBE; */
+}

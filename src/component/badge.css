@@ -1,0 +1,65 @@
+.badge{
+    @apply px-2;
+    @apply inline-block;
+    @apply text-sm;
+    @apply text-center;
+    @apply align-middle;
+    @apply rounded-full;
+    
+
+    &-sm{
+        @apply px-1;
+    }
+    &-lg{
+        @apply px-3;
+        
+    }
+    &-xl{
+        @apply px-4;
+    }
+
+    &-primary{
+        @apply text-white;
+        @apply bg-blue-600;
+    }
+
+    &-secondary{
+        @apply text-white;
+        @apply bg-gray-500;
+    }
+
+    &-success{
+        @apply text-white;
+        @apply bg-green-600;
+    }
+
+    &-danger{
+        @apply text-white !important;
+        @apply bg-red-600;
+    }
+
+    &-warning{
+        @apply text-black;
+        @apply bg-yellow-400;
+    }
+
+    &-info{
+        @apply text-black;
+        @apply bg-blue-500;
+    }
+
+    &-light{
+        @apply text-black;
+        @apply bg-transparent;
+    }
+
+    &-dark{
+        @apply bg-gray-700;
+    }
+
+    &-Fit{
+        @apply text-white;
+        @apply bg-purple-500;
+    }
+
+}

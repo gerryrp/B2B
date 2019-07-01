@@ -1,0 +1,165 @@
+  /* Dropdown normal size */
+  
+  .dropdown {
+    display: inline;
+    position: relative;
+  }
+  
+  .dd-button {
+    display: inline-block;
+    border: 1px solid rgb(19, 19, 19);
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(0%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+  
+  .dd-button:hover {
+    background-color: #eeeeee;
+  }
+  
+  
+  .dd-input {
+    display: none;
+  }
+  
+  .dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+
+  }
+  
+  .dd-input + .dd-menu {
+    display: none;
+  } 
+  
+  .dd-input:checked + .dd-menu {
+    display: block;
+  } 
+  
+  .dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-menu li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .dd-menu li a {
+    display: block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+  }
+  
+  .dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+
+/* Dropdown small size */
+
+
+.dropdown {
+    display: inline;
+    position: relative;
+  }
+  
+  .dd-button-small {
+    display: inline-block;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 4px;
+    padding: 5px 40px 5px 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .dd-button-small:after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: 8px; /* atur simbol down */
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+  
+  .dd-button-small:hover {
+    background-color: #9b9b9b;
+  }
+  
+  
+  .dd-input {
+    display: none;
+  }
+  
+  .dd-menu-small {
+    position: absolute;
+    top: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+    
+  }
+  
+  .dd-input + .dd-menu-small {
+    display: none;
+  } 
+  
+  .dd-input:checked + .dd-menu-small {
+    display: block;
+  } 
+  
+  .dd-menu-small li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dd-menu-small li:hover {
+    background-color: #8a8a8a;
+  }
+  
+  .dd-menu-small li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+  }
+  
+  .dd-menu-small li.divider{
+    padding: 0;
+    border-bottom: 1px solid #979797;
+  }
+
